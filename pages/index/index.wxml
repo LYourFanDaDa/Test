@@ -1,0 +1,98 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="headerone">
+      <image src='../../img/logo.png'></image>
+      <view class="textOne">
+        <text class='text1'>岳阳楼区外婆菜家餐厅</text>
+        <text class='text2'>配送范围：1公里 | ￥0元起送</text>
+        <text class='text3'>公告：</text>
+      </view>
+    </view>
+    <view class="headertow">
+      <text class='text4'>首</text>
+      <text class='text5'>新用户下单立减0.00元(不与其他活动共享)</text>
+      <text class='text6'>1个活动</text>
+    </view>
+  </view>
+  <view class='swiper'>
+    <swiper class='swiper-img' indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='secionFont'>
+    <view class='secion'>
+      <image src='../../img/yuyue.png'></image>
+      <text class='textFont'>预定</text>
+    </view>
+    <view class='secion1'>
+      <image src='../../img/diancan.png'></image>
+      <text class='textFont'>点餐</text>
+    </view>
+    <view class='secion1'>
+      <image src='../../img/youhui.png'></image>
+      <text class='textFont'>优惠卷</text>
+    </view>
+    <view class='secion1'>
+      <image src='../../img/shouyin.png'></image>
+      <text class='textFont'>收银</text>
+    </view>
+  </view>
+  <view class='secionBackcolor'></view>
+  <view class='secionList'>
+    <view class='secionUl'>
+      <text style='color:black'>商家信息</text>
+      <view class='iconsImg'><image src='../../img/fenxiang.png'></image><text>分享</text></view>
+    </view>
+    <view class='secionUl'>
+      <text>营业时间</text>
+      <text class='seiontext'>10:00-12:00 12:00-20:00</text>
+      <view class='iconsImg'></view>
+    </view>
+    <view class='secionUl'>
+      <text>商家电话</text>
+      <text class='seiontext' data-reply-phone="13307404616" bindtap='phoneCall'>13307404616</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+    <view class='secionUl'>
+      <text>商家地址</text>
+      <text class='seiontext'>岳阳市岳阳楼区外婆菜家餐馆</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+    <view class='secionUl'>
+      <text>商家环境</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+  </view>
+  <view class='secionBackcolor'></view>
+  <view class='seiconFormtion'>
+    <text class='Formtext'>配送信息</text>
+    <view class='seiconMtion'>
+      <view class='MtionBtn'>商家配送</view>
+      <view class='MtionText'>
+        <text>准时必达，专业配送，提高品质送餐服务</text>
+        <text>配送费￥0</text>
+      </view>
+    </view>
+  </view>
+  <view class='secionBackcolor'></view>
+  <view class='EndingList'>
+     <text class='EndingText'>首</text>
+     <text style='margin-left:20rpx;'>新用户下单立减0.00元(不与其他活动共享)</text>
+  </view>
+  <view class='EndingList'>
+     <view class="group">
+      <block wx:for="{{iconSize}}">
+        <icon type="success" size="{{item}}"/>
+        <text>该商家支持微信支付</text>
+      </block>
+    </view>
+  </view>
+  <view class='secionBackcolor' style='padding-bottom:240rpx;'></view>
+  
+</view>

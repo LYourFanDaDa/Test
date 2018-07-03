@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/order/Order"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#34aaff",
+    "navigationBarTitleText": "岳阳楼区外婆菜餐厅",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#41b0ff",
+    "backgroundColor": "#fff",
+    "background": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/footerHome_2.png",
+        "selectedIconPath": "/img/foooterHome_1.png"
+      },
+      {
+        "pagePath": "pages/order/Order",
+        "text": "订单",
+        "iconPath": "/img/footerOrder.png",
+        "selectedIconPath": "/img/footerOrder_2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "/img/footerMy_1.png",
+        "selectedIconPath": "/img/footerMy_2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

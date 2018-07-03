@@ -1,0 +1,71 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="headerone">
+      <image src='../../img/Myimg.png'></image>
+      <view class="textOne">Y</view>
+    </view>
+  </view>
+  <view class='header-deom'>
+    <view class='header-deom-item'>
+      <text class='item-text1' style='color:#ff9900'>0.00元</text>
+      <text class='item-text2'>钱包</text>
+    </view>
+    <view class='header-deom-item'>
+      <text class='item-text1' style='color:#ff5f3e'>0个</text>
+      <text class='item-text2'>优惠</text></view>
+    <view class='header-deom-item'>
+      <text class='item-text1' style='color:#ff5f3e'>0分</text>
+      <text class='item-text2'>积分</text></view>
+  </view>
+  <view class='secionBackcolor'></view>
+  <view class='secionList'>
+    <view class='secionUl'>
+      <view class='iconsImg3'><image src='../../img/shouhuo.png'></image></view>
+      <text>收获地址</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+    <view class='secionUl'>
+      <view class='iconsImg3'><image src='../../img/congzhi.png'></image></view>
+      <text>充值中心</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+    <view class='secionUl'>
+      <view class='iconsImg3'><image src='../../img/lingqu.png'></image></view>
+      <text>领取优惠卷</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+    <view class='secionUl'>
+      <view class='iconsImg3'><image src='../../img/wode.png'></image></view>
+      <text>我的优惠卷</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+    <view class='secionUl' style='border-bottom:0;'>
+      <view class='iconsImg3'><image src='../../img/jifen.png'></image></view>
+      <text>积分商城</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+  </view>
+  <view class='secionBackcolor'></view>
+  <view class='secionList'>
+    <view class='secionUl'>
+      <view class='iconsImg3'><image src='../../img/kefu.png'></image></view>
+      <text>在线客服</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+    <view class='secionUl' style='border-bottom:0;'>
+      <view class='iconsImg3'><image src='../../img/hellop.png'></image></view>
+      <text>帮助中心</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+  </view>
+  <view class='secionBackcolor'></view>
+  <view class='secionList'>
+    <view class='secionUl' style='border-bottom:0;'>
+      <view class='iconsImg3'><image src='../../img/shangjia.png'></image></view>
+      <text>商家入口</text>
+      <view class='iconsImg2'><image src='../../img/right.gif'></image></view>
+    </view>
+  </view>
+   <view class='secionBackcolor' style='padding-bottom:240rpx;'></view>
+</view>

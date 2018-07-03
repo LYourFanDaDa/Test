@@ -1,0 +1,13 @@
+<view class='cont'>
+  <view class='Header' catchtap='changeOil'>
+    <view class='{{num==1?"Header-dlick":"Header-deom"}}' data-num="1">外卖</view>
+    <view class='{{num==2?"Header-dlick":"Header-deom"}}' data-num='2'>点餐</view>
+    <view class='{{num==3?"Header-dlick":"Header-deom"}}'  data-num='3'>预定</view>
+  </view>
+  <view class='order'>
+    <view class='order-background'>
+      <image src='../../img/dingdian.png'></image>
+      <text>您暂时没有订单哦~</text>
+    </view>
+  </view>
+</view>

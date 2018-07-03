@@ -1,0 +1,7 @@
+
+.secionBackcolor{
+  width: 100%;
+  float: left;
+  background: #efeff4;
+  height:10rpx;
+}
